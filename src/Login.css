@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+}
+.login {
+
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-color: black;
+
+}
+
+.logo {
+height: 280px;
+width: 50%;
+
+}
+
+.logb {
+    text-align: center;
+padding: 20px;
+width: 200px;
+border-radius: 99px;
+color: white;
+background-color: #1db954;
+text-decoration: none;
+
+}

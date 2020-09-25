@@ -1,0 +1,46 @@
+.sidebarOptions{
+display: flex;
+align-items: center;
+color: grey;
+padding: 5px;
+cursor: pointer;
+transition: 200ms color ease-in;
+}
+
+.sidebarOptions:hover{
+
+color: white;
+
+}
+
+.sidebar__icons{
+
+padding-left: 10px;
+padding-right: 10px;
+
+}
+
+hr{
+border:1px solid #282828;
+width: 90%;
+margin: 10px auto ;
+
+
+}
+
+.playlist{
+
+    margin-left:10px ;
+    padding: 5px;
+    font-size: 12px;
+
+
+}
+
+p{
+
+margin-top: 10px;
+margin-left: 20px;
+font-size: 14px;
+
+}

@@ -9,17 +9,20 @@ import {Grid,Slider} from "@material-ui/core";
 import PlaylistPlayOutlinedIcon from '@material-ui/icons/PlaylistPlayOutlined';
 import VolumeDownOutlinedIcon from '@material-ui/icons/VolumeDownOutlined';
 import FavoriteIcon from '@material-ui/icons/Favorite';
-
+  import { useDataLayerValue } from "./DataLayer";
 
 var Footer =function(){
+
+const[{current_song},dispatch]=useDataLayerValue();
+
 
 return (
 <div className="footer">
   <div className="footer__left">
-  <img src="https://i.ytimg.com/vi/c8gEQw8sPok/maxresdefault.jpg" className="album__logo"></img>
+  <img src={current_song.image} className="album__logo"></img>
   <div className="song__info">
-    <h4>Age 19</h4>
-    <p>Jass Manak</p>
+    <h4>{current_song.title}</h4>
+    <p>{current_song.singer}</p>
   </div>
   </div>
 

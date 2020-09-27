@@ -7,6 +7,14 @@ color: white;
 
 }
 
+.discover{
+
+height: 200px !important;
+
+
+
+}
+
 .body__info{
 
 display: flex;
@@ -62,7 +70,7 @@ margin-bottom: 20px;
 }
 
 .body__songs{
-
+display: flex;
 margin: 20px -30px;
 
 }
